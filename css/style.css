@@ -1,6 +1,6 @@
 
 /* styling the login form for the userName and passWord  */
- *{
+ /* *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -111,7 +111,7 @@ body {
     margin-left: 50px;
     border: none;
     height: 40px;
- }
+ } */
 
 
 /* javascript app using fetch, by default my page has the following */

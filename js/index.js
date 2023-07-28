@@ -3,8 +3,8 @@
 // const more = document.getElementById('more').style.display = "block";
 const tabs = (document.getElementById("tabs").style.display = "block");
 const contact = (document.getElementById("contact").style.display = "none");
-const mainSection = (document.getElementById("main-field").style.display =
-  "none");
+// const mainSection = (document.getElementById("main-field").style.display =
+  // "none");
 const Login = document.getElementById("Login");
 function myfunction() {
   var x = document.getElementById("pass");
