@@ -22,6 +22,15 @@ This application has been built with the following technologies:
 
 - Once this web application loads you can now go ahead and search for drinks both alcoholic and non-alcoholic  and a list of ingredients will be provided together with the method of preparation. A list of some of the available drinks are provided in my app in form of buttons.
 
+#### Website preview
+
+- Image 1 of the site
+
+<img src = "./assets/prjscr1.png" />
+
+- Image 2 of the site
+<img src = "./assets/prjscr2.png" />
+
 ##### Installations
 - You can either  `clone`   or  `fork`  the repo of my project by opening your terminal / Command Line Interface on your computer.
 
