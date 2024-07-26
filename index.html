@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drink Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Welcome to the Cocktail Finder</h1>
+            <p>Discover delicious cocktail recipes and how to make them.</p>
+        </div>
+        <div class="banner-images">
+            <img src="./assets/cocktail1.jpg" alt="Cocktail 1">
+            <img src="./assets/cocktail2.jpg" alt="Cocktail 2">
+            <img src="./assets/cocktail3.jpg" alt="Cocktail 3">
+        </div>
+    </div>
+    <div class="search-container">
+        <input type="text" id="mealName" placeholder="Enter drink name" />
+        <button onclick="fetchData()">Search Drink</button>
+    </div>
+    <div class="suggestions">
+        <p>Try these popular drinks:</p>
+        <button class="suggestion-btn" onclick="fetchData('margarita')">Margarita</button>
+        <button class="suggestion-btn" onclick="fetchData('mojito')">Mojito</button>
+        <button class="suggestion-btn" onclick="fetchData('pina colada')">Piña Colada</button>
+        <button class="suggestion-btn" onclick="fetchData('martini')">Martini</button>
+        <button class="suggestion-btn" onclick="fetchData('old fashioned')">Old Fashioned</button>
+    </div>
+    <div id="resultsContainer" class="results-container"></div>
+    <script src="index.js"></script>
+</body>
+</html>
